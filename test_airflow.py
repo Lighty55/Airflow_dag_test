@@ -4,7 +4,7 @@ from airflow.operators.python import PythonOperator
 import time
 import pendulum
 from textwrap import dedent
-from pyspark.sql import SparkSession
+# from pyspark.sql import SparkSession
 
 def extract_task(**kwargs):
     # context = get_current_context()
